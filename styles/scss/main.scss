@@ -1,0 +1,18 @@
+@import "./partials/_utility.scss";
+
+body{
+  .main-header{
+    margin: {
+      top: 15vh;
+      bottom: 45vh;
+    }
+    h1{
+      font-size: 5rem;
+    };
+  };
+  .bottom-gradient{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(255,255,255,0.5));
+    height: auto;
+  }
+  background-image: url("../../images/endless-constellation.svg");
+}
