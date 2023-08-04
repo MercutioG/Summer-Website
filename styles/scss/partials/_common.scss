@@ -1,0 +1,46 @@
+// Side/Navbar
+aside{
+  padding: {
+    top: 2rem;
+    bottom: 2rem;
+    left: 3rem;
+    right: 3rem;
+  };
+  width: 21rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  height: calc(100vh - 4rem);
+}
+
+.article-content{
+  .article-holder{
+    img{
+      width: 70%;
+      margin-left: 15%;
+    }
+  }
+  padding: {
+    top: 2rem;
+    bottom: 2rem;
+    left: 4.5rem;
+    right: 3.5rem;
+  };
+  width: calc(100vw - 28rem);
+  margin: {
+    top: 2rem;
+    bottom: 2rem;
+    right: 2rem;
+    left: 1rem;
+  };
+  border-radius: 0.5rem;
+  height: calc(100vh - 4rem);
+
+  .paragraph{
+    text-indent: 5rem;
+    line-height: 2;
+    letter-spacing: 0.025rem;
+  }
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

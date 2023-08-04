@@ -1,0 +1,25 @@
+// The homepage only
+// Center elements
+.home-header{
+  margin: {
+    top: 12vh;
+    bottom: 38vh;
+  };
+  padding: {
+    left: 15vw;
+    right: 15vw;
+  };
+  height: 25vh;
+  h1{
+    font-size: 4rem;
+  };
+};
+.home-body{
+  height: 10vh;
+};
+
+// Lower Gradient
+.bottom-gradient{
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
+  height: 15vh;
+}
