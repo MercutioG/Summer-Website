@@ -1,4 +1,4 @@
-@import "./partials/_utility";
+@import "./partials/utility";
 @import "./partials/homepage";
 @import "./partials/common";
 
@@ -20,7 +20,7 @@
 
   *::-webkit-scrollbar-thumb {
     background-color: #787878;
-    border-radius: 16px;
+    border-radius: 0px;
     border: 0px none #c2c2c2;
   }
 
