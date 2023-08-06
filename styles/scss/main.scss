@@ -2,28 +2,4 @@
 @import "./partials/homepage";
 @import "./partials/common";
 
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #787878 #ededed00;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #ededed00;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #787878;
-    border-radius: 0px;
-    border: 0px none #c2c2c2;
-  }
-
-.dotbackground{
-  background-image: url("../../images/endless-constellation.svg");
-}
+$enable-important-utilities: false;

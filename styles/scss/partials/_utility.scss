@@ -1,17 +1,34 @@
-.action-button{
-  background-image: linear-gradient(green,darkgreen);
-  width: 12rem;
-  height: 4rem;
-  font-size: 2rem;
-  font-weight: 600;
-  color: white;
-  border-radius: 1rem;
-  border-style: hidden;
-  box-shadow: 0px 5px 5px -1px black;
-  scale: 1.0;
-  transition: 0.2s;
-  &:hover{
-    scale: 1.1;
-    transition: 0.2s;
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #787878 #ededed00;
   }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ededed00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #787878;
+    border-radius: 16px;
+    border: 0px none #c2c2c2;
+  }
+
+.dotbackground{
+  background-image: url("../../../images/endless-constellation.svg");
+  background-color: black;
+}
+
+body{
+  overflow: hidden;
+}
+
+li, ul{
+  list-style: disc;
 }
