@@ -76,7 +76,7 @@ li, ul {
 }
 
 #homepage-background {
-  background-image: url("../../../images/homepage.png");
+  background-image: url("../../images/homepage.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
