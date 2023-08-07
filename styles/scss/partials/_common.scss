@@ -58,7 +58,9 @@ aside{
 ul > li > ul > li{
   display: list-item;
 }
-
+.nav-links{
+  background: 0%;
+}
 .pg-title{
   font-size: 2.2rem;
 }
@@ -126,5 +128,14 @@ ul > li > ul > li{
     margin: 1rem;
     width: calc(100% - 2rem);
     height: calc(90vh - 2rem);
+    .paragraph{
+      text-indent: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pg-text{
+    font-size: 1.2rem
   }
 }

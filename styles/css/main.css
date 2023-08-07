@@ -83,6 +83,11 @@ li, ul {
   height: 88vh;
 }
 
+@media screen and (max-width: 700px) {
+  .home-header h1 {
+    font-size: 2.5rem;
+  }
+}
 aside {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -130,6 +135,10 @@ aside img {
 
 ul > li > ul > li {
   display: list-item;
+}
+
+.nav-links {
+  background: 0%;
 }
 
 .pg-title {
@@ -192,5 +201,13 @@ ul > li > ul > li {
     margin: 1rem;
     width: calc(100% - 2rem);
     height: calc(90vh - 2rem);
+  }
+  .article-content .paragraph {
+    text-indent: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pg-text {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=main.css.map */
